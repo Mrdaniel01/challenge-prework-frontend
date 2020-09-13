@@ -1,10 +1,11 @@
-.container {
-	width: 350px;
-	height: 300px;
-	border: 2px solid black;
-	position: relative;
+.img2-container {
+	width: 200px;
+	height: 200px;
+  position: relative;
+  left: -50px;
+  top: -50px;
 }
-.body {
+.img2-body {
   position: absolute;
   width: 70px;
   height: 90px;
@@ -13,7 +14,7 @@
   top: 100px;
   left: 180px;
 }
-.body:after {
+.img2-body:after {
   position: absolute;
   content: "";
   width: 25px;
@@ -23,7 +24,7 @@
   top: 70px;
   left: 40px;
 }
-.arm-left {
+.img2-arm-left {
   position: absolute;
   width: 40px;
   height: 95px;
@@ -32,7 +33,7 @@
   top: 100px;
   left: 225px;
 }
-.leg-right {
+.img2-leg-right {
   position: absolute;
   width: 20px;
   height: 40px;
@@ -42,7 +43,7 @@
   left: 185px;
   transform: rotate(45deg);
 }
-.leg-right:after {
+.img2-leg-right:after {
   position: absolute;
   content: "";
   width: 20px;
@@ -53,7 +54,7 @@
   left: 10px;
   transform: rotate(-90deg);
 }
-.arm-right {
+.img2-arm-right {
   position: absolute;
   width: 35px;
   height: 60px;
@@ -62,7 +63,7 @@
   top: 100px;
   left: 170px;
 }
-.arm-right:after {
+.img2-arm-right:after {
   position: absolute;
   content: "";
   width: 60px;
@@ -72,16 +73,16 @@
   top: 30px;
   left: -25px;
 }
-.shadow {
+.img2-shadow {
 	position: absolute;
 	width:155px;
 	height: 17px;
 	border-radius: 10px;
 	background: rgba(53, 53, 53, 0.322);
-	right: 80px;
-	bottom:65px;
+	top: 210px;
+	left: 110px;
 }
-.head {
+.img2-head {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -90,7 +91,7 @@
   top: 90px;
   left: 180px;
 }
-.face {
+.img2-face {
   position: absolute;
   width: 40px;
   height: 60px;
@@ -99,7 +100,7 @@
   top: 90px;
   left: 175px;
 }
-.beard {
+.img2-beard {
   position: absolute;
   width: 25px;
   height: 50px;
@@ -108,7 +109,7 @@
   top: 120px;
   left: 176px;
 }
-.beard:after {
+.img2-beard:after {
   content: "";
   position: absolute;
   width: 17px;
@@ -118,20 +119,20 @@
   top: 5px;
   left: 4px;
 }
-.braid {
+.img2-braid {
   position: absolute;
   width: 10px;
   height: 60px;
   left: 208px;
   top: 97px;
 }
-.ball {
+.img2-ball {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background: #e78535;
 }
-.ball6 {
+.img2-ball6 {
   position: absolute;
   width: 10px;
   height: 20px;
@@ -139,7 +140,7 @@
   top: 50px;
   background: #e78535;
 }
-.ball6:after {
+.img2-ball6:after {
   content: "";
   position: absolute;
   width: 10px;
@@ -148,13 +149,13 @@
   top: -2px;
   background: #031e2b;
 }
-.braid2 {
+.img2-braid2 {
   position: absolute;
   left: 172px;
   top: 100px;
   filter: grayscale(.2);
 }
-.nose{
+.img2-nose{
   position: absolute;
   width: 8px;
   height: 14px;
@@ -163,7 +164,7 @@
   top: 117px;
   left: 183px;
 }
-.mouth{
+.img2-mouth{
   position: absolute;
   width: 3px;
   height: 10px;
@@ -173,7 +174,7 @@
   left: 190px;
   transform: rotate(45deg);
 }
-.eye-left {
+.img2-eye-left {
   position: absolute;
   z-index: 10;
   width: 3px;
@@ -183,7 +184,7 @@
   top: 110px;
   left: 190px;
 }
-.eye-left:after {
+.img2-eye-left:after {
   content: "";
   position: absolute;
   z-index: 5;
@@ -194,7 +195,7 @@
   top: -2px;
   left: -2px;
 }
-.eye-right {
+.img2-eye-right {
   position: absolute;
   z-index: 10;
   width: 3px;
@@ -204,7 +205,7 @@
   top: 110px;
   left: 178px;
 }
-.eye-right:after {
+.img2-eye-right:after {
   content: "";
   position: absolute;
   z-index: 5;
@@ -215,7 +216,7 @@
   top: -2px;
   left: -2px;
 }
-.sword {
+.img2-sword {
   position: absolute;
   width: 30px;
   height: 20px;
@@ -223,7 +224,7 @@
   top: 90px;
   left: 215px;
 }
-.sword:after {
+.img2-sword:after {
   content: "";
   position: absolute;
   width: 23px;
@@ -232,7 +233,7 @@
   top: -4px;
   left: 4px;
 }
-.shadow-handle {
+.img2-sword-handle {
   position: absolute;
   width: 6px;
   height: 25px;
@@ -240,7 +241,7 @@
   top:67px;
   left: 228px;
 }
-.shadow-handle:after {
+.img2-sword-handle:after {
   content: "";
   position: absolute;
   width: 10px;
@@ -250,7 +251,7 @@
   top: -8px;
   left: -2px;
 }
-.shadow-handle:before {
+.img2-sword-handle:before {
   content: "";
   position: absolute;
   width: 40px;
@@ -259,3 +260,4 @@
   background:#617d8b;
   top: 13px;
   left: -18px;
+}
